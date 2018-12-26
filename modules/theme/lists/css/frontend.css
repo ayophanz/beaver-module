@@ -1,0 +1,14 @@
+.lists { margin: 0; padding: 0; position: relative; }
+.lists .list { margin: 0; padding: 0 0 5px; position: relative; }
+.lists .list:last-child{ margin-bottom: 0;}
+.lists .list .list-content { font-size: 0.9em; padding: 5px 0 15px 25px; }
+.lists .list .list-content ul li > ul{ margin-top: 5px; margin-bottom: 10px;}
+.lists .list .list-content p{ margin-bottom: 10px; }
+
+.lists .list:not(.has-icon) { margin-left: 17px; padding-left: 8px; }
+.lists .list.has-icon { list-style: outside none none; }
+.lists .list.has-icon .list-icon { display: table-cell; text-align: center; vertical-align: baseline; width: 15px; }
+.lists .list.has-icon .list-text { display: table-cell; padding-left: 10px; }
+
+.lists .list.image { list-style: outside none none; margin: 0; padding: 0; }
+.lists .list.image::before { background-size: contain; background-repeat: no-repeat; content: ""; display: inline-block; height: 1em; margin: 0 10px 0 0; vertical-align: middle; width: 15px; }

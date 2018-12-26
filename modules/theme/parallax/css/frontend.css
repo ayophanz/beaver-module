@@ -1,0 +1,29 @@
+.parallax-wrapper ~ *{ position: relative; z-index: 1; }
+.parallax-wrapper .fl-module-parallax, 
+.parallax-wrapper .fl-module-parallax .fl-module-content{ height: 100%; left: 0; margin: 0; padding: 0; position: absolute; top: 0; width: 100%; z-index: 0; }
+.parallax,
+.parallax-image { height: 100%; left: 0; overflow: hidden; position: absolute; top: 0; width: 100%; }
+.parallax::before { background-color: #000; content: ""; display: block; height: 100%; opacity: 0.5; position: absolute; width: 100%; z-index: 2; }
+
+/*admin*/
+.fl-builder-edit:not(.hover-active) [data-name="Parallax"] .fl-module-content { margin: 0 !important; }
+.fl-builder-edit:not(.hover-active) [data-type="parallax"] #fl-builder-settings-section-margins{ display: none !important; }
+.fl-builder-edit:not(.hover-active) .fl-row:hover .parallax{ height: 50px; border: 1px solid #3BA0FF; background-color: rgba(59, 160, 255, 0.23);}
+.fl-builder-edit:not(.hover-active) .fl-row:hover .parallax::after { bottom: 0; color: #fff; content: "PARALLAX"; display: block; font-size: 40px; font-weight: 700; left: 0; letter-spacing: 2px; line-height: 1.2em; margin: auto; position: absolute; right: 0; text-align: center; top: 0; }
+.fl-builder-edit:not(.hover-active) .fl-row:hover .parallax-wrapper .fl-module-parallax,
+.fl-builder-edit:not(.hover-active) .fl-row:hover .parallax-wrapper .fl-module-parallax .fl-module-content,
+.fl-builder-edit:not(.hover-active) .fl-row:hover .parallax,
+.fl-builder-edit:not(.hover-active) .fl-row:hover .parallax::before,
+.fl-builder-edit:not(.hover-active) .fl-row:hover .parallax-image{ position: relative !important; }
+
+.parallax-blur-overlay.parallax::after { content: ''; display: block; width: 70%; height: 100%; position: absolute; top: 0; left: 0; background-color: #fff; z-index: 99; right: 0; left: 0; filter: blur(70px); -webkit-filter: blur(70px); bottom: 0; margin: auto; }
+
+@media only screen and ( max-width: 1280px ) {
+	.parallax-image.bg-size-auto { background-size: auto 100% !important; }
+}
+@media only screen and ( max-width: 767px ) {
+	.disable-mobile.parallax-image { background-position: 50% 0; background-repeat: no-repeat; background-size: 110% auto; }
+}
+@media only screen and ( max-width: 567px ) {
+	.parallax-image.bg-size-auto { background-position: 50% 50% !important; }
+}
