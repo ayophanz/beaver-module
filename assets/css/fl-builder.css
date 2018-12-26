@@ -1,0 +1,31 @@
+html.hover-active .fl-row-overlay.fl-block-overlay,
+html.hover-active .fl-module-overlay.fl-block-overlay{ display:none !important; }
+html.hover-active .fl-builder-hover-content-button { background-color: #f90000; border-color: #ba0000; box-shadow: 0 1px 0 #ff9f9f inset, 0 1px 0 rgba(0, 0, 0, 0.08); color: #fff; }
+html.hover-active .fl-builder-hover-content-button i::before { content: '\f070'; }
+
+.fl-lightbox{ letter-spacing: 0;}
+.fl-row.background-size-100 > .fl-row-content-wrap{ background-size: 100% auto !important; }
+.fl-row.background-size-100-100 > .fl-row-content-wrap{ background-size: 100% 100% !important; }
+.fl-row-full-width > .fl-col-group > .fl-col { min-height: 0; }
+.fl-col-small{ max-width: 100% !important; }
+.fl-color-picker + .fl-field-description { display: inline-block; margin: 8px; }
+ul.fl-builder-submenu > li > a > i.fa{ position: absolute !important; top: 6px !important; right: 8px !important; }
+.fl-photo-field.fl-builder-custom-field{background: rgb(215,222,227); background: -moz-linear-gradient(top,  rgba(215,222,227,1) 0%, rgba(245,247,249,1) 100%); background: -webkit-linear-gradient(top,  rgba(215,222,227,1) 0%,rgba(245,247,249,1) 100%); background: linear-gradient(to bottom,  rgba(215,222,227,1) 0%,rgba(245,247,249,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7dee3', endColorstr='#f5f7f9',GradientType=0 );}
+
+.fl-builder-edit #header{ z-index: 1;}
+.fl-builder-edit #header.sticky{ z-index: 2;}
+
+/*fullheight class bottom*/
+html .fl-row-full-height.content-alignment-bottom .fl-row-content-wrap { align-items: flex-end; justify-content: center; -webkit-align-items: flex-end; -webkit-box-align: flex-end; -webkit-box-pack: flex-end; -webkit-justify-content: center; -ms-flex-align: flex-end; -ms-flex-pack: flex-end; }
+
+.fl-widget .widgettitle:empty,
+.fl-widget .widgettitle:empty + div > form > p:not(.wysija-paragraph) { display: none; }
+
+.fl-row-fixed-width { margin-left: auto; margin-right: auto; padding-left: 15px; padding-right: 15px; }
+
+.fl-builder-edit .fl-visible-medium-mobile{ position: relative;}
+.fl-builder-edit .fl-visible-medium-mobile::before { bottom: 0; content: "VISIBLE ON MEDIUM MOBILE ONLY" !important; font-size: 30px; font-weight: 800; height: auto; left: 0; margin: auto; position: absolute; right: 0; text-align: center; top: 50%; transform: translateY(-100%); width: 100%; z-index: 10; }
+.fl-builder-edit .fl-visible-medium-mobile > *{ opacity: 0.6;}
+@media only screen and ( max-width: 768px ) {
+	html .hide-mobile-background .fl-row-content-wrap{ background-image: none !important; }
+}
