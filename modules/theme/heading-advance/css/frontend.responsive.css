@@ -1,0 +1,6 @@
+.heading-advance-box.centered-mobile { display: table; margin: auto; position: relative; max-width: 530px; width: 100%; float: none; text-align: center; }
+.heading-advance-box.centered-mobile .heading-advance-separator div:nth-child(3) { width: 50%; }
+.heading-advance-box.centered-mobile .heading-advance-icon { display: block; padding-left: 0; padding-right: 0; text-align: center; }
+.heading-advance-box.centered-mobile .heading-advance-icon.source-image { display: table; margin: auto; }
+.heading-advance-box.centered-mobile.max-width-enable,
+.heading-advance-box.centered-mobile .max-width-enable { margin-left: auto; margin-right: auto; }
