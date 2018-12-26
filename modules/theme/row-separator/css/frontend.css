@@ -1,0 +1,6 @@
+.fl-builder-settings[data-type="row-separator"] #fl-builder-settings-section-margins{ display: none !important; }
+/*.fl-row:hover .row-separator { visibility: hidden; }*/
+.fl-module-row-separator .fl-module-content { margin: 0 !important; }
+.fl-module-row-separator { position: relative; z-index: 10;}
+.fl-module-row-separator .fl-module-content{ margin: 0; }
+.fl-module-row-separator .fl-module-content svg{ display: block; }
