@@ -1,0 +1,10 @@
+.slideshow-image{ position: relative; }
+.slideshow-image .owl-prev{ left: 20px;}
+.slideshow-image .owl-next{ right: 20px;}
+.slideshow-image .slide{ display: block; background: none 50% 50% no-repeat; background-size: cover; position: relative; }
+.slideshow-image .slide.contain{ background-size: contain; }
+.slideshow-image .slide .slideshow-caption{ text-align: center; position: absolute; left: 0; bottom: 0; width: 100%; color: #fff; font-size: 30px; padding: 30px 15px; }
+.slideshow-image .slide .slideshow-caption{ background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%); background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%); background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#e6000000',GradientType=0 ); }
+
+.slideshow-image.autoheight.maxheight .slide img { width: auto; margin: auto; }
+.slideshow-image.shadow .owl-stage-outer { box-shadow: 0 30px 50px rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.15); }
