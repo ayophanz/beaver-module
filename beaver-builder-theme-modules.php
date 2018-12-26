@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Beaver Builder Theme Modules
- * Description: Theme modules for beaver builder.
+ * Plugin Name: Beaver Builder Theme Modules (Extension)
+ * Description: Theme modules for beaver builder (extension).
  * Version: 1.0
  * Author: Jford Ayop
  */
