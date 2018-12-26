@@ -3,7 +3,7 @@
  * Plugin Name: Beaver Builder Theme Modules
  * Description: Theme modules for beaver builder.
  * Version: 1.0
- * Author: The Beaver Builder Team
+ * Author: Jford Ayop
  */
 define( 'FL_MODULE_THEME_DIR', plugin_dir_path( __FILE__ ) );
 define( 'FL_MODULE_THEME_URL', plugins_url( '/', __FILE__ ) );
