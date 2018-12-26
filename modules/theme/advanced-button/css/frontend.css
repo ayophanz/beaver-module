@@ -1,0 +1,5 @@
+.advanced-button { font-size: 14px; position: relative; line-height: normal; }
+.advanced-button.center { text-align: center; }
+.advanced-button.left { text-align: left; }
+.advanced-button.right { text-align: right; }
+html .advanced-button .btn:only-child { margin-right: 0; }

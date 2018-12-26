@@ -1,0 +1,53 @@
+.cta{ display: table; width: 100%;}
+.cta .cta-content { float: left; text-align: left; vertical-align: middle; }
+	.cta-content .cta-title{ margin-bottom: 10px; line-height: 1.2em;}
+	.cta-content .cta-desc > *:last-child{ margin-bottom: 0; padding-bottom: 0; }
+.cta:not(.block) .cta-buttons { display: table-cell; vertical-align: middle; width: 10%; }
+	.cta-buttons.center{ text-align: center;}
+	.cta-buttons.left{ text-align: left;}
+	.cta-buttons.right{ text-align: right;}
+.cta.inline.left .cta-buttons{ padding-left: 30px; }
+.cta.inline.right .cta-buttons{ padding-right: 30px; }
+@media only screen and ( min-width: 767px ) {
+	.cta.right.inline .cta-buttons.right:last-child { display: none; }
+}
+@media only screen and ( max-width: 767px ) {
+	.cta.right.inline .cta-buttons.right:first-child { display: none; }
+}
+
+.cta.right.inline .cta-content{ float: right; text-align: right; }
+.cta.right.inline .cta-buttons { padding-left: 0; padding-right: 30px; }
+.cta.center.inline { text-align: center; }
+.cta.center.inline .cta-content, .cta.center.inline .cta-buttons { display: inline-block; float: none; text-align: right !important; width: auto !important; padding: 0 15px; }
+.cta.center.inline .cta-buttons { text-align: left !important; }
+.cta.center.inline .cta-buttons .btn { width: auto !important; }
+.cta.center.inline .cta-content > *:only-child { margin: 0 !important; }
+
+.cta .cta-buttons.right .btn{ margin-left: 15px; margin-right: 0; }
+.cta.left .cta-buttons.right .btn{ margin-left: 0; margin-right: 15px; }
+.cta.center .cta-buttons .btn:only-child{ margin-left: 0; margin-right: 0; }
+
+.cta.block .cta-content,
+.cta.block .cta-buttons{ width: 100%;}
+.cta.center.block .cta-content,
+.cta.center.block .cta-buttons{ text-align: center !important; }
+.cta.left.block .cta-content,
+.cta.left.block .cta-buttons{ padding-left: 0; text-align: left !important; }
+.cta.right.block .cta-content,
+.cta.right.block .cta-buttons{ padding-right: 0; text-align: right !important; }
+
+
+@media only screen and ( max-width: 991px ) {
+	.cta.center.inline .cta-content{ margin-bottom: 30px; text-align: center !important; line-height: normal; }
+	.cta.center.inline .cta-content, .cta.center.inline .cta-buttons{ width: 100%;}
+}
+@media only screen and ( max-width: 767px ) {
+	.cta-content, .cta-buttons{ width: 100%; text-align: center !important; }
+	.cta:not(.block) .cta-buttons{ display: block; width: 100%;}
+	.cta.inline.left .cta-buttons{ padding-left: 0px; }
+	.cta.inline.right .cta-buttons{ padding-right: 0px; }
+	.cta.right.block .cta-content, 
+	.cta.right.block .cta-buttons,
+	.cta .cta-buttons.left,
+	.cta .cta-buttons.right{ text-align: center !important; }
+}

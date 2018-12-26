@@ -1,0 +1,3 @@
+.cta.centered-mobile *,
+.cta.left.block.centered-mobile .cta-buttons,
+.cta.right.block.centered-mobile .cta-buttons{ text-align: center !important; }
