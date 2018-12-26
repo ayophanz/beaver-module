@@ -1,0 +1,12 @@
+.faq { position: relative; }
+.faq .faq-item { position: relative; margin-bottom: 10px; }
+.faq .faq-item .faq-title { background-color: #fff; border: 1px solid #e9eaed; cursor: pointer; display: block; margin: 0; padding: 15px 60px 15px 20px; position: relative; transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s;}
+.faq .faq-item .faq-title i { bottom: 0; display: block; height: 0; left: auto; line-height: 0; margin: auto; position: absolute; right: 20px; text-align: right; top: 0; transition: all 0.3s ease 0s; -webkit-transition: all 0.3s ease 0s; width: 1em; }
+.faq .faq-item .faq-desc { background-color: #fff; overflow: hidden; transition: all 0.6s ease 0s; -webkit-transition: all 0.6s ease 0s; }
+.faq .faq-item .faq-desc .faq-desc-content { padding: 15px 20px; }
+.faq .faq-item .faq-desc .faq-desc-content > *:last-child { margin-bottom: 0; padding-bottom: 0; }
+
+
+.faq .faq-item.active .faq-title { border-left: 3px solid #406de4; color: #406de4; }
+.faq .faq-item:not(.active) .faq-desc {  max-height: 0 !important; }
+.faq .faq-item.active .faq-title i { transform: rotateX(170deg); -webkit-transform: rotateX(170deg); }

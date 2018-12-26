@@ -1,0 +1,8 @@
+.fl-builder-settings[data-type="column-background"] #fl-builder-settings-section-margins{ display: none !important; }
+.fl-module-column-background .fl-module-content { margin: 0 !important; }
+.fl-block-overlay-active .column-background { position: relative !important; width: 100% !important; }
+
+.column-background { height: 100%; position: absolute; left: 0; top: 0; width: 50%; }
+.column-background + .clearfix{ margin: 0; visibility: hidden; }
+.fl-col-small + .fl-col-small .column-background { left: auto; right: 0; }
+.column-background img{ visibility: hidden; }

@@ -1,0 +1,25 @@
+.counterbar{ position: relative; display: block; text-align: center;}
+.counterbar.circle{ text-align: center;}
+.counterbar.circle .counterbar-inner { display: table; height: 210px; width: 100%; }
+.counterbar.circle .counterbar-content { display: table-cell; vertical-align: middle; }
+.counterbar-circle ~ * { position: relative; z-index: 1; }
+
+.counterbar.left{ text-align: left;}
+.counterbar.right{ text-align: right;}
+
+.counterbar .counterbar-icon{ margin: 0 0 10px; font-size: 60px; line-height: 1em; color: #3498DB;}
+.counterbar .counterbar-number{ margin: 0 0 10px; line-height: 1em; font-size: 40px; font-weight: 900;}
+.counterbar .counterbar-title{ color: #808285;}
+.counterbar-circle { height: 100%; left: 0; position: absolute; text-align: center; top: 0; width: 100%; z-index: 0; }
+.counterbar-circle .svg { height: 224px; left: 50%; overflow: visible; position: absolute; top: 50%; transform: translateY(-50%) translateX(-50%); -webkit-transform: translateY(-50%) translateX(-50%); }
+.counterbar-circle .svg circle { stroke-width: 5px; }
+.counterbar-circle .svg circle.bar { stroke: #eaeaea; }
+.counterbar-circle .svg circle.bar-counter { stroke: #f7951e; }
+.counterbar-number-prepend,
+.counterbar-number-append{ display: inline;}
+
+@media only screen and ( max-width: 1023px ) {
+	.counterbar .counterbar-icon { font-size: 40px; }
+	.counterbar.circle .counterbar-inner { height: 176px; }
+	.counterbar-circle .svg { height: 180px;}
+}
