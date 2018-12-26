@@ -1,0 +1,55 @@
+.form-newsletter { margin: auto; padding: 0; position: relative; width: 100%; }
+.form-newsletter > * { position: relative; z-index: 1; }
+.form-newsletter h1,
+.form-newsletter h2,
+.form-newsletter h3,
+.form-newsletter h4,
+.form-newsletter h5,
+.form-newsletter h6 { color: #fff; }
+.form-newsletter.center { text-align: center; }
+.form-newsletter.left { text-align: left; }
+.form-newsletter.right { text-align: right; }
+
+.form-newsletter-content{ float: left; width: 100%;}
+.form-newsletter-info { float: left; padding-right: 15px; width: 280px; }
+.form-newsletter-form { float: left; padding-left: 15px; position: relative; width: calc(100% - 280px); }
+
+.form-newsletter .form-newsletter-title { margin: 0; line-height: 1.2em; }
+.form-newsletter .form-newsletter-desc { margin: 0; }
+
+
+.form-newsletter .wysija-paragraph { float: left; margin: 0 !important; position: relative; width: calc(100% - 45px); }
+.form-newsletter .wysija-paragraph .wysija-input { border-color: #fff; border-radius: 4px 0 0 4px; color: #999999; line-height: 1em; height: 38px; padding: 0 12px; font-size: 12px; width: 100%; }
+.form-newsletter .wysija-paragraph .wysija-input:focus { color: #000000; }
+.form-newsletter .wysija-paragraph + .wysija-submit { background-color: #0071c8; border-color: #0071c8; border-radius: 0 4px 4px 0; color: #ffffff; float: left; font-family: "Material Icons"; font-size: 20px; line-height: 1em; margin: 0; padding: 8px 3px; text-align: center; width: 45px; height: 38px; }
+.form-newsletter .wysija-paragraph + .wysija-submit:hover { background-color: #003e6e; border-color: #003e6e; transition: ease all 0.3s; }
+.form-newsletter .wysija-paragraph .formError { background: #ff0000 none repeat scroll 0 0; border-radius: 2px 0 0 2px; bottom: 0 !important; display: table; height: 38px; left: 0 !important; top: auto !important; width: 100% !important; }
+.form-newsletter .wysija-paragraph .formError .formErrorContent { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: 0 none; display: table-cell; font-size: 10px; height: auto; line-height: normal; padding: 0 10px; text-transform: uppercase; vertical-align: middle; width: 100%; }
+
+.form-newsletter .wysija-paragraph { width: calc(100% - 70px); }
+.form-newsletter .wysija-paragraph .wysija-input { font-size: 19px; font-weight: 300; height: 61px; padding: 0 28px;}
+.form-newsletter .wysija-paragraph .wysija-input::-webkit-input-placeholder, 
+.form-newsletter .wysija-paragraph .wysija-input::-moz-placeholder, 
+.form-newsletter .wysija-paragraph .wysija-input:-ms-input-placeholder { opacity: 0.5; color: #000000; }
+.form-newsletter .wysija-paragraph .wysija-input:focus::-webkit-input-placeholder, 
+.form-newsletter .wysija-paragraph .wysija-input:focus::-moz-placeholder, 
+.form-newsletter .wysija-paragraph .wysija-input:focus:-ms-input-placeholder { opacity: 1; }
+.form-newsletter .wysija-paragraph + .wysija-submit { font-size: 32px; height: 61px; width: 70px; }
+.form-newsletter .wysija-paragraph .formError .formErrorContent { font-size: 11px; height: 61px; line-height: 1.6em; padding: 0 28px; }
+
+.form-newsletter-form .wysija-paragraph { margin-bottom: 0;} 
+.form-newsletter-form form > p:not(.wysija-paragraph) { display: none; }
+
+.form-newsletter-form .widget_wysija_cont .updated, 
+.form-newsletter-form .widget_wysija_cont .login .message { background-color: #0fb338; border-color: rgba(0, 0, 0, 0); border-radius: 2px; color: #ffffff; font-weight: 700; padding: 18px 20px; text-align: center; }
+.form-newsletter-form .widget_wysija_cont .error, 
+.form-newsletter-form .widget_wysija_cont .xdetailed-errors { background-color: #e55057; border-color: rgba(0, 0, 0, 0); border-radius: 2px; color: #ffffff; font-weight: 700; padding: 18px 20px; text-align: center; }
+
+@media only screen and ( max-width: 600px ) {
+	.form-newsletter-info { padding-bottom: 20px; text-align: center; width: 100%; }
+	.form-newsletter-form { width: 100%; }
+	.form-newsletter .wysija-paragraph { width: calc(100% - 60px); }
+	.form-newsletter .wysija-paragraph .wysija-input { font-size: 16px; height: 50px; padding: 0 15px; }
+	.form-newsletter .wysija-paragraph + .wysija-submit { font-size: 24px; height: 50px; width: 60px; }
+	.form-newsletter .wysija-paragraph .formError .formErrorContent { height: 50px; padding: 0 15px; }
+}

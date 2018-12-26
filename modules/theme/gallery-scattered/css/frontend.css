@@ -1,0 +1,7 @@
+.gallery-scattered { position: relative; }
+.gallery-scattered .title { color: #c90b00; font-size: 36px; font-weight: 400; line-height: 1.2em; margin-bottom: 40px; position: relative; text-align: center; }
+.gallery-scattered .title .sub-title { color: #000; display: block; font-size: 20px; font-weight: 400; line-height: 1em; }
+
+
+.light.gallery-scattered,
+.light.gallery-scattered .title .sub-title { color: #fff; }

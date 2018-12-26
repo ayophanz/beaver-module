@@ -1,0 +1,4 @@
+.form-box { background-color: #fff; padding: 35px; position: relative; box-shadow: 0 -20px 38px rgba(0, 0, 0, 0.2); }
+.form-box::before, .form-box::after { content: ""; height: 8px; position: absolute; box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); }
+.form-box::before { width: calc(100% - 22px); background-color: #f1f0f0; left: 10px; top: -8px; border: 1px solid #e8e8e8; z-index: 20; }
+.form-box::after { width: calc(100% - 40px); background-color: #eaeaea; left: 18px; top: -15px; z-index: 10; }
