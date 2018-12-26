@@ -1,0 +1,12 @@
+.social-media-icons { position: relative; }
+.social-media-icons a { border-radius: 50%; -webkit-border-radius: 50%; display: inline-block; font-size: 20px; line-height: 1em; text-align: center; padding: 10px; margin-bottom: 10px; }
+.social-media-icons a i { display: block; width: 1em; }
+
+.social-media-icons.left { text-align: left; }
+.social-media-icons.right { text-align: right; }
+.social-media-icons.center { text-align: center; }
+
+.social-media-icons.left a{ margin-right: 10px; }
+.social-media-icons.right a{  margin-left: 10px; }
+.social-media-icons.center a{ margin-left: 5px; margin-right: 5px; }
+
