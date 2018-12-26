@@ -1,0 +1,4 @@
+.fl-rich-text-content { max-height: 0; overflow: hidden; transition: ease max-height 1s; }
+.fl-rich-text-excerpts .fl-rich-text-excerpt { transition: ease max-height 1s 0.8s; max-height: 999px; overflow: hidden; }
+.fl-rich-text-excerpts.show-excerpt .fl-rich-text-excerpt { max-height: 0; transition: ease max-height 0s 0s; }
+.fl-rich-text-excerpts.show-excerpt .fl-rich-text-content { max-height: 999px; }
