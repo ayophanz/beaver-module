@@ -21,7 +21,7 @@ It is Object Oriented Implementation to make it for organize and easy to underst
 1. modules folder
 example:
 
-  carousel (parent folder)
+    carousel (parent folder)
   
     css (child folder)
     
@@ -32,4 +32,4 @@ example:
 2. css folder
 example:
 
-  frontend.css (the appearance of the module in your frontend so it easy to style or update the css of every module)
+    frontend.css (the appearance of the module in your frontend so it easy to style or update the css of every module)
