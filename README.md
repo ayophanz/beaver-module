@@ -43,3 +43,11 @@ It is Object Oriented Implementation to make it more organize and easy to unders
 4. nameofmodules.php example carousel.php :
 
     This file is the main file of the module where you can register settings on your modules like we want input field for title text and it compose of multiple arrays for easy calling and readable variable code like this ( $settings->items[$i]->carousel_linkto )
+
+
+
+
+Please see one of my modules as example of my coding style:
+
+path:   modules/theme/slider/slider.php
+
