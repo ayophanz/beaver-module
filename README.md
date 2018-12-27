@@ -18,8 +18,7 @@ MODULES CODE STYLE:
 
 It is Object Oriented Implementation to make it for organize and easy to understand I created different files and folder.
 
-1. modules folder
-example:
+1. modules folder:
 
     carousel (parent folder)
   
@@ -29,7 +28,6 @@ example:
     
     config file (php file)
     
-2. css folder
-example:
+2. css folder:
 
     frontend.css (the appearance of the module in your frontend so it easy to style or update the css of every module)
