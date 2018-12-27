@@ -1,5 +1,11 @@
 # beaver-module
-beaver builder theme modules is a plugin that I created to extend the capability of free beaver builder module lite
+beaver builder theme modules is a plugin for wordpress that I created to extend the capabilities of free beaver builder module lite plugin
+
+
+WHY MODULES:
+
+There are lots js library available on internet most of them open-source like (owl-carousel)
+try to imagine you have a big project and you have multiple carousel on it you can do a traditional way its fine what if your carousel encounter bugs so you need to review all of the carousel you implemented one by one which is not good it takes a time and hard to manage, In beaver modules you can integrate owl-carousel to became part of your module the good thing is you can easily locate, manage and debug the code or even other programmer, the very best thing is you can reuse it to any of your wordpress project.
 
 
 MODULES LOCATION:
