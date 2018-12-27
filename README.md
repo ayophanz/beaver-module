@@ -30,4 +30,16 @@ It is Object Oriented Implementation to make it for organize and easy to underst
     
 2. css folder:
 
-    frontend.css (the appearance of the module in your frontend so it easy to style or update the css of every module)
+    frontend.css - The appearance of the module in your frontend so it easy to style or update the css of every module
+
+3. includes folder:  
+  
+   frontend.css.php - In most of my modules we can set css without opening the css file, this file is responsible of queck styling for common css properties like margin and padding.
+   
+   frontend.js.php - Same as frontend.css.ph but this file handles the javascript properties like animation making output animated whatever we want like left to right or top to bottom.
+   
+   frontend.php - This file handles the configuration that you've made on module like archor(<a></a>) on click new tab or same tab 
+
+4. nameofmodules.php example carousel.php :
+
+    This file is the main file of the module where you can register settings on your modules like we want input field for title text and it compose of multiple arrays for easy calling and readable variable code like this ( $settings->items[$i]->carousel_linkto )
