@@ -20,6 +20,7 @@ It is Object Oriented Implementation to make it for organize and easy to underst
 
 1. modules folder
 example:
+
   carousel (parent folder)
     css (child folder)
     includes (child folder)
