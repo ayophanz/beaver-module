@@ -31,4 +31,5 @@ example:
     
 2. css folder
 example:
+
   frontend.css (the appearance of the module in your frontend so it easy to style or update the css of every module)
