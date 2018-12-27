@@ -22,8 +22,11 @@ It is Object Oriented Implementation to make it for organize and easy to underst
 example:
 
   carousel (parent folder)
+  
     css (child folder)
+    
     includes (child folder)
+    
     config file (php file)
     
 2. css folder
