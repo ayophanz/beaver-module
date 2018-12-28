@@ -30,7 +30,7 @@ It is Object Oriented Implementation, to make it more organize and easy to under
     
 2. css folder:
 
-    frontend.css - The appearance of the module in your frontend so it easy to style or update the css of every module
+    frontend.css - The appearance of the module in your frontend, so it easy to style or update the css of every module.
 
 3. includes folder:  
   
