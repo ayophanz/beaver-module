@@ -16,7 +16,7 @@ of course we can create fresh modules, this kind of modules is easy to maintain 
 
 MODULES CODE STYLE:
 
-It is Object Oriented Implementation to make it more organize and easy to understand, I created different files and folder.
+It is Object Oriented Implementation, to make it more organize and easy to understand I created different files and folder.
 
 1. modules folder:
 
